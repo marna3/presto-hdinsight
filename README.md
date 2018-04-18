@@ -4,7 +4,7 @@ Run Presto on Azure HDInsight
 # TL;DR 
 Run a custom [Script Action](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux) on existing or new HDInsight _hadoop_ cluster (version 3.5 or above) with following as your bash script URI and run it on "HEAD" and "WORKER":
 ```
-https://raw.githubusercontent.com/dharmeshkakadia/presto-hdinsight/master/installpresto.sh
+https://raw.githubusercontent.com/marna3/presto-hdinsight/master/installpresto.sh
 ```
 
 Now you can SSH to your cluster and start using presto:
